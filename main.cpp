@@ -3,8 +3,7 @@ using namespace sf;
 int main()
 {
     RenderWindow window(VideoMode(200, 200), "SFML works!");
-    CircleShape shape(100.f);
-    shape.setFillColor(Color::Green);
+    Grid grid(5,5);
 
     while (window.isOpen())
     {
